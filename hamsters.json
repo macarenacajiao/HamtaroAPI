@@ -1,0 +1,163 @@
+{
+	"hamsters": [{
+			"name": "Hamtaro",
+			"description": "Hamtaro (ハム太郎) is a male hamster and the main character of the manga and anime, Hamtaro. Hamtaro and his friends love to have fun. He has a great relationship with his 'owner', Laura Haruna. Bijou has a crush on him, but he doesn't seem to notice. Hamtaro is always there for his friends. It doesn't matter if it is Boss or Snoozer; he will gladly help.",
+			"owner": "Laura Haruna",
+			"dateofbirth": "August 6th",
+			"gender": "Male",
+			"eyecolour": "Grey",
+			"height": 8.6,
+			"img": "https://static.tvtropes.org/pmwiki/pub/images/hamtaro.jpg"
+		},
+		{
+			"name": "Bijou",
+			"description": "Bijou (リボンちゃん, Ribon-chan, Ribbon-chan, Spanish 'Lacitos') is a female hamster with white fur and blue ribbons. She is a somewhat unworldly hamster who loves her blue ribbons, but she is not above getting dirty when she needs to help her friends and has been known to be generous and helpful.",
+			"owner": "Maria",
+			"dateofbirth": "July 10th",
+			"gender": "Female",
+			"eyecolour": "Teal",
+			"height": 7.5,
+			"img": "https://static.tvtropes.org/pmwiki/pub/images/bijou.jpg"
+		},
+		{
+			"name": "Oxnard",
+			"description": "Oxnard (こうしくん) is a tall, gluttonous hamster. He is Hamtaro's best friend and is the husband of Pepper. Oxnard is a food-loving hamster, he is usually seen eating, and, like most of the hamsters, he is easily tempted by sunflower seeds, but seems to be more in a craze due to his large appetite.",
+			"owner": "Kana Iwata",
+			"dateofbirth": "May 3rd",
+			"gender": "Male",
+			"eyecolour": "Bluish Gray",
+			"height": 10,
+			"img": "https://static.tvtropes.org/pmwiki/pub/images/oxnard.jpg"
+		},
+		{
+			"name": "Boss",
+			"description": "Boss (タイショーくん) is a field hamster. The self-proclaimed leader of the Ham-Hams, Boss has a huge crush on Bijou. He often tries to look like he knows everything, usually to have it backfire completely.",
+			"owner": "None",
+			"dateofbirth": "September 21st",
+			"gender": "Male",
+			"eyecolour": "Moss Green",
+			"height": 12,
+			"img": "https://static.tvtropes.org/pmwiki/pub/images/boss_2.jpg"
+		},
+		{
+			"name": "Pashmina",
+			"description": "Pashmina (マフラーちゃん, Mafurā-chan) is a hamster with a love of scarves. She is rarely seen without one. She is best friends with Penelope and is like a sister to her. Pashmina is a very sweet and humble hamster. She is known to keep a sister-like bond with Penelope, she also seems to have a fondness for scarves and the colour pink.",
+			"owner": "June",
+			"dateofbirth": "September 16th",
+			"gender": "Female",
+			"eyecolour": "Blue",
+			"height": 7.3,
+			"img": "https://static.tvtropes.org/pmwiki/pub/images/pashmina.jpg"
+		},
+		{
+			"name": "Penelope",
+			"description": "Penelope (ちび丸ちゃん, Chibimaru-chan) is an adorable white and brown baby hamster. She is like a little sister to Pashmina. She always wears a yellow blanket over her head. She is owned by Kylie.",
+			"owner": "Kylie",
+			"dateofbirth": "March 3rd",
+			"gender": "Female",
+			"eyecolour": "Dark Opal",
+			"height": 6.2,
+			"img": "https://static.tvtropes.org/pmwiki/pub/images/penelope_4.jpg"
+		},
+		{
+			"name": "Howdy",
+			"description": "Howdy (まいどくん, Maido-kun, Spanish 'Bromitas') is a lower-class, joke-loving hamster. He has a rather quirky sense of humour and a strong friendship/rivalry relationship with Dexter, mostly competing with him to win the heart of Pashmina. He is a tidy, hard-working wise-cracker, who has an innate gift for financial matters. Never without his shop apron, he can spruce up a room in minutes and not miss a chance to amuse others with one-liners along the way.",
+			"owner": "Goldie",
+			"dateofbirth": "February 18th",
+			"gender": "Male",
+			"eyecolour": "Grey",
+			"height": 8.5,
+			"img": "https://static.tvtropes.org/pmwiki/pub/images/howdy.jpg"
+		},
+		{
+			"name": "Dexter",
+			"description": "Dexter (めがねくん, Megane-kun, Spanish 'Gafitas') is a short, well-educated hamster. He is the best friend and love rival of Howdy. He has a crush on Pashmina. A dapper dandy, this well-mannered, gentleman hamster is always smartly dressed and ready to help.",
+			"owner": "Curtis",
+			"dateofbirth": "October 11th",
+			"gender": "Male",
+			"eyecolour": "Grey",
+			"height": 8.7,
+			"img": "https://static.tvtropes.org/pmwiki/pub/images/dexter_6.jpg"
+		},
+		{
+			"name": "Maxwell",
+			"description": "Maxwell (のっぽくん, Noppo-kun, Spanish 'Cerebrin') is an intelligent hamster who knows many facts. The Ham-Hams go to him for information. He was temporarily the leader of the Ham-Hams when Boss went away for a while. Maxwell has a crush on Sandy and they become a couple later on. Maxwell is like a big brother figure for most Ham-Hams. A book-smart hamster of higher learning, the Ham-Hams go to Maxwell for knowledge of the world around them.",
+			"owner": "Yume",
+			"dateofbirth": "November 5th",
+			"gender": "Male",
+			"eyecolour": "Brown",
+			"height": 10.5,
+			"img": "https://static.tvtropes.org/pmwiki/pub/images/maxwell_7.jpg"
+		},
+		{
+			"name": "Sandy",
+			"description": "Sandy (トラハムちゃん, Torahamu-chan, Spanish 'Tigrilla') is an athletic, but gentle Ham-Ham. Her twin brother is Stan. Sandy has a crush on Maxwell and has since become a couple. Sandy, has a 'valley girl' accent. She keeps the Ham-Hams on their toes with her sporty style all the while keeping a close eye on her flirtatious twin brother, Stan.",
+			"owner": "Hillary",
+			"dateofbirth": "June 6th",
+			"gender": "Female",
+			"eyecolour": "Green",
+			"height": 7.5,
+			"img": "https://static.tvtropes.org/pmwiki/pub/images/sandy_1.jpg"
+		},
+		{
+			"name": "Stan",
+			"description": "Stan (トラハムくん, Torahamu-kun, Spanish 'Tigrillo') is a Ham-Ham who is the older fraternal twin brother of Sandy. He is often seen holding maracas in his paws. He flirts with nearly every girl hamster he meets. The dedicated twin brother of Sandy, Stan fancies himself a Casanova hamster with his maracas and romantic Latin rhythms. When he's not working out at the gym or trying to be popular, he can usually be found flirting with girl hamsters.",
+			"owner": "Hillary (formerly), Noel (currently)",
+			"dateofbirth": "June 6th",
+			"gender": "Male",
+			"eyecolour": "Green",
+			"height": 7.5,
+			"img": "https://static.tvtropes.org/pmwiki/pub/images/stan_hamtaro_657.jpg"
+		},
+		{
+			"name": "Snoozer",
+			"description": "Snoozer (ねてるくん, Neteru-kun) is a hamster who is always sleeping. He serves as a sort of deputy under Boss. He occasionally 'wakes up' to provide practical advice to the Hamsters when needed.",
+			"owner": "N/A",
+			"dateofbirth": "January 14th",
+			"gender": "Male",
+			"eyecolour": "Grey",
+			"height": 8.5,
+			"img": "https://vignette.wikia.nocookie.net/hamtaro/images/e/ea/SnoozerN.png/revision/latest/scale-to-width-down/350?cb=20150928215411"
+		},
+		{
+			"name": "Cappy",
+			"description": "Cappy (かぶるくん, Kaburu-kun, Spanish 'Gorritas') is a white and brown ham ham, and one of the youngest. He wears a green cap. He loves to put different things on his head. One notable thing would be a pan. Cappy has a passion for hats.",
+			"owner": "Kip and Sue",
+			"dateofbirth": "August 6th",
+			"gender": "Male",
+			"eyecolour": "Dark Grey-Blue",
+			"height": 7.7,
+			"img": "https://vignette.wikia.nocookie.net/hamtaro/images/1/16/CappyN.png/revision/latest/scale-to-width-down/350?cb=20150928215407"
+		},
+		{
+			"name": "Panda",
+			"description": "Panda (パンダくん, Panda-kun) is owned by Mimi. A Ham-Ham whose fur matches his 'name', he is the sweet and gentle-natured carpenter of the Ham-Hams who built and repaired many things throughout the duration of the anime as well as the in the games.",
+			"owner": "Mimi Iwata",
+			"dateofbirth": "April 8th",
+			"gender": "Male",
+			"eyecolour": "Grey",
+			"height": 8.8,
+			"img": "https://vignette.wikia.nocookie.net/hamtaro/images/b/b4/Panda_3.png/revision/latest?cb=20150927175610"
+		},
+		{
+			"name": "Jingle",
+			"description": "Jingle (トンガリくん, Tongari-kun, Spanish 'Trotty') is a songwriting hamster. He is barely seen without his guitar and is usually seen playing music. Although he is officially part of the Ham-Ham Gang he doesn't seem to be present on their adventures. But he can give advice that pops out of nowhere and confuses the Ham-Hams.",
+			"owner": "None",
+			"dateofbirth": "December 12th",
+			"gender": "Male",
+			"eyecolour": "Brown",
+			"height": 8.5,
+			"img": "https://vignette.wikia.nocookie.net/hamtaro/images/e/e0/Jingle_man.png/revision/latest/scale-to-width-down/350?cb=20150928145302"
+		},
+		{
+			"name": "Sparkle",
+			"description": "Sparkle (くるりんちゃん, Kururin-chan, Spanish 'Estrellita') is a pop star. She had first appeared in Pop Star along with her 'owner', Glitter. Sparkle is a snobbish and fame-loving hamster.",
+			"owner": "Glitter",
+			"dateofbirth": "February 9th",
+			"gender": "Female",
+			"eyecolour": "Blue",
+			"height": "Secret",
+			"img": "https://vignette.wikia.nocookie.net/hamtaro/images/2/2f/Sparkle_Nano.png/revision/latest?cb=20150928105239"
+		}
+	]
+}
