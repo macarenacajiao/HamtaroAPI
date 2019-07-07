@@ -35,10 +35,9 @@
                 <img v-bind:src="hamsters[randomHamsters].img" class="imagenRandom"></img>
             </div>
             <div class="all" v-for="hamster in hamsters" v-if="vista=='showAll'">
-                <img v-bind:src="hamster.img" class="imagenAll"></img>
                 <h1>{{hamster.name}}</h1>
                 <p>{{hamster.description}}</p>
-                
+                <img v-bind:src="hamster.img" class="imagenAll"></img>
             </div>
             <!--esto es un for que buclea el hamsters.json-->
         </div>

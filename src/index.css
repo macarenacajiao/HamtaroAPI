@@ -7,7 +7,8 @@
   box-sizing: border-box;
 }
 
-body, html {
+body,
+html {
   display: flex;
   background-image: url("blossom.jpg");
   background-size: 150px;
@@ -50,11 +51,11 @@ body, html {
 /*Random*/
 .random {
   padding: 25px;
-  background-color: #FFD2E3;
-  height: 100%;
+  background-color: rgba(240, 159, 189, 0.473);
+  margin: 25px;
 }
 
-.imagenRandom, .imagenAll{
+.imagenRandom, .imagenAll {
   height: 200px;
   padding: 10px;
 }
@@ -70,7 +71,7 @@ body, html {
   justify-content: flex-start;
 }
 
-.flex-element{
+.flex-element {
   margin: 5px;
 }
 
@@ -83,7 +84,7 @@ a {
   position: relative;
 }
 
-.icon-search{
+.icon-search {
   position: absolute;
   padding: 10px;
   left: -3px;
