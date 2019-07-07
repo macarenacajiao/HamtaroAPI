@@ -8,22 +8,37 @@
     <title>Hamtaro API</title>
     <link rel="shortcut icon" href="../src/favicon.ico" type="image/x-icon">
     <link rel="icon" href="../src/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/cb97cd0af8/UntitledProject/style.css">
+    <link rel="stylesheet" href="../src/index.css">
 </head>
 
 <body>
     <div id="app">
-        <div>
-            <h1>Hamtaro API</h1>
-            <label for="text">
-                <input type="text" id="text" placeholder="Busca un hámster..">
-            </label>
-            <button>Randomize!</button>
+        <div id="buscador">
+            <a href="https://github.com/macarenacajiao/HamtaroAPI" class="flex-element">
+                <h1>Hamtaro API</h1>
+            </a>
+            <div for="text" class="search flex-element">
+                <label for="text"><span class="icon-search"></span></label>
+                <input type="text" id="text" placeholder="Search a ham..">
+            </div>
+            <button class="btn flex-element" v-on:click="randomHamster()">Randomize!</button>
+            <button id="showAll" class="btn flex-element" v-on:click="showAll()">Show All Hams!</button>
+            <!--v-on:click y ponemos la funcion entre comillas dobles que se va a ejecutar-->
         </div>
         <div>
-            <div v-for="hamster in hamsters">
+            <div class="random" v-if="randomHamsters !== null && vista=='showRandom'">
+                <!--v-if me permite poner la condicion de que cuando se recargue la pagina o cuando recien se abra no me muestre, lo que me saca los errores de consola anteriormente impresos-->
+                <h1>Random Result</h1>
+                <h1>{{hamsters[randomHamsters].name}}</h1>
+                <p>{{hamsters[randomHamsters].description}}</p>
+                <img v-bind:src="hamsters[randomHamsters].img" class="imagenRandom"></img>
+            </div>
+            <div class="all" v-for="hamster in hamsters" v-if="vista=='showAll'">
+                <img v-bind:src="hamster.img" class="imagenAll"></img>
                 <h1>{{hamster.name}}</h1>
                 <p>{{hamster.description}}</p>
-                <img v-bind:src="hamster.img"></img>
+                
             </div>
             <!--esto es un for que buclea el hamsters.json-->
         </div>
@@ -31,6 +46,6 @@
     <script src="../src/vue.js"></script>
     <script src="../src/script.js"></script>
     <script src="../src/api.js"></script>
+</script>
 </body>
-
 </html>

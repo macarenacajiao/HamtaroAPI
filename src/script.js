@@ -7,14 +7,18 @@ var miApp = new Vue({
     el: '#app',
     data: {
         hamsters: {},
-        randomHamster: {}
+        randomHamsters: 0,
+        vista: "showAll"
     }, methods: {
-        randomBtn: function{()=>}
+        randomHamster: function () {
+            this.randomHamsters=Math.floor(Math.random()*(15 - 0)) + 0;
+            this.vista="showRandom";
+        }, /*le ponemos nombre al method y ejecutamos la función anónima*/
+        showAll: function (){
+            this.vista="showAll";
+        }
     }
 });
 
-function randomHamster(){
-
-}
 /*declaramos una var nueva de vue, llamada miApp
 va a funcionar en el=elemento, id de app en el dom (div padre), que contiene hamsters*/
