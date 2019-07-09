@@ -8,10 +8,8 @@
     <title>Hamtaro API</title>
     <link rel="shortcut icon" href="../src/favicon.ico" type="image/x-icon">
     <link rel="icon" href="../src/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/cb97cd0af8/UntitledProject/style.css">
     <link rel="stylesheet" href="../src/index.css">
 </head>
-
 <body>
     <div id="app">
         <div id="buscador">
@@ -19,32 +17,42 @@
                 <h1>Hamtaro API</h1>
             </a>
             <div for="text" class="search flex-element">
-                <label for="text"><span class="icon-search"></span></label>
+                <label for="text"><i class="fas fa-search"></i></label>
                 <input type="text" id="text" placeholder="Search a ham..">
             </div>
             <button class="btn flex-element" v-on:click="randomHamster()">Randomize!</button>
             <button id="showAll" class="btn flex-element" v-on:click="showAll()">Show All Hams!</button>
-            <!--v-on:click y ponemos la funcion entre comillas dobles que se va a ejecutar-->
         </div>
-        <div>
+        <div class="resultados">
             <div class="random" v-if="randomHamsters !== null && vista=='showRandom'">
-                <!--v-if me permite poner la condicion de que cuando se recargue la pagina o cuando recien se abra no me muestre, lo que me saca los errores de consola anteriormente impresos-->
                 <h1>Random Result</h1>
                 <h1>{{hamsters[randomHamsters].name}}</h1>
                 <p>{{hamsters[randomHamsters].description}}</p>
+                <ul class="listaData">
+                    <li>Owner: {{hamsters[randomHamsters].owner}}</li>
+                    <li>Date of birth: {{hamsters[randomHamsters].dateofbirth}}</li>
+                    <li>Eye colour: {{hamsters[randomHamsters].eyecolour}}</li>
+                    <li>Gender: {{hamsters[randomHamsters].gender}}</li>
+                </ul>
                 <img v-bind:src="hamsters[randomHamsters].img" class="imagenRandom"></img>
             </div>
             <div class="all" v-for="hamster in hamsters" v-if="vista=='showAll'">
                 <h1>{{hamster.name}}</h1>
                 <p>{{hamster.description}}</p>
+                <ul class="listaData">
+                    <li>Owner: {{hamster.owner}}</li>
+                    <li>Date of birth: {{hamster.dateofbirth}}</li>
+                    <li>Eye colour: {{hamster.eyecolour}}</li>
+                    <li>Gender: {{hamster.gender}}</li>
+                    <li>Height: {{hamster.height}}</li>
+                </ul>
                 <img v-bind:src="hamster.img" class="imagenAll"></img>
             </div>
-            <!--esto es un for que buclea el hamsters.json-->
         </div>
     </div>
     <script src="../src/vue.js"></script>
     <script src="../src/script.js"></script>
     <script src="../src/api.js"></script>
-</script>
 </body>
+
 </html>

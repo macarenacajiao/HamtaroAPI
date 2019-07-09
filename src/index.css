@@ -7,14 +7,23 @@
   box-sizing: border-box;
 }
 
-body,
-html {
-  display: flex;
+body,html {
   background-image: url("blossom.jpg");
   background-size: 150px;
   font-family: 'Questrial', sans-serif;
   color: #333;
   height: 100%;
+}
+
+.app {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+}
+
+/*Unordered list*/
+.listaData {
+  list-style-type: none;
 }
 
 /*Botones*/
@@ -31,7 +40,6 @@ html {
   transition: all ease 0.3s;
 }
 
-
 .btn:hover {
   background-color: #FFD2E3;
   cursor: pointer;
@@ -41,18 +49,20 @@ html {
   outline: none;
 }
 
-/*All*/
-.all {
-  padding: 25px;
-  background-color: rgba(240, 159, 189, 0.473);
-  margin: 25px;
+/*divs All y Random*/
+.resultados{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
 }
 
-/*Random*/
-.random {
+.all, .random {
   padding: 25px;
   background-color: rgba(240, 159, 189, 0.473);
   margin: 25px;
+  border-radius: 8px;
+  width: 45%;
 }
 
 .imagenRandom, .imagenAll {
@@ -71,6 +81,7 @@ html {
   justify-content: flex-start;
 }
 
+/*Flex botones buscador*/
 .flex-element {
   margin: 5px;
 }
@@ -84,7 +95,7 @@ a {
   position: relative;
 }
 
-.icon-search {
+.fa-search {
   position: absolute;
   padding: 10px;
   left: -3px;
@@ -92,7 +103,7 @@ a {
   color: grey;
 }
 
-input[type=text] {
+input[type=text], input:focus {
   width: 100%;
   box-sizing: border-box;
   border: 2px solid #EFEFEF;
@@ -102,10 +113,15 @@ input[type=text] {
   background-position: 10px 10px;
   background-repeat: no-repeat;
   padding: 12px 20px 12px 40px;
-}
 
-input:focus {
   outline: none;
 }
 
-/*Boton back to top*/
+/*Responsive*/
+
+@media only screen and (max-width: 426px){
+  .all,
+  .random {
+    width: 100%;
+  }
+}
